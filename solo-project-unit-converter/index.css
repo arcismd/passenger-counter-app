@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+#numberValue {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+button {
+    padding: 7px;
+    border: none;
+    background-color: #a2a2cd;
+    color: white;
+}
+
+button:hover {
+    padding: 7px;
+    border: none;
+    background-color: #838386;
+    color: white;
+    cursor: pointer;
+}
+
+h3 {
+    padding-top: 2vh;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+.block {
+    text-align: center;
+    color: white;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+.intrBlock {
+    height: 50%;
+    width: 50vw;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+/* gradient created using gradient-generator */
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 38% 55%) 0%,
+  hsl(276deg 40% 55%) 11%,
+  hsl(310deg 48% 57%) 22%,
+  hsl(329deg 82% 65%) 33%,
+  hsl(342deg 100% 69%) 44%,
+  hsl(358deg 100% 72%) 56%,
+  hsl(18deg 100% 68%) 67%,
+  hsl(34deg 100% 62%) 78%,
+  hsl(46deg 100% 55%) 89%,
+  hsl(55deg 100% 50%) 100%
+    );
+}
+
+.resultsBlock {
+    width: 50vw;
+    margin: auto;
+    height: 50%;
+    border-radius: 0 0 20px 20px;
+    background-color: #a2a2cd;
+}
+
+@media screen and (max-width: 900px) {
+    .resultsBlock, .intrBlock {
+        width: 80vw;
+    }
+}
