@@ -5,6 +5,7 @@ body {
     text-align: center;
     color: white;
     font-weight: bold;
+    padding-top: 5vh;
 }
 
 h1 {
@@ -13,4 +14,17 @@ h1 {
 
 #message-el {
     font-style: italic;
+}
+
+button {
+    font-size: large;
+    color: #016f32;
+    background: goldenrod;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
 }
