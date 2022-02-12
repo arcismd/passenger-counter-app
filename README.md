@@ -2,6 +2,10 @@
 
 My projects based on the Scrimba [curriculum](https://scrimba.com/dashboard?tab=overview).
 
+## Blackjack game
+
+Check [RESULT](https://arcismd.github.io/scrimba-projects/blackjack-game/).
+
 ## Solo project unit converter
 
 **Requirements:**
