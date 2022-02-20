@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Karla:wght@200;300;400;500&display=swap');
 
+:root {
+    --js-background-image: url(assets/dots.svg);
+}
+
 html, body {
     margin: 0 auto;
     max-width: 100%;
@@ -108,7 +112,7 @@ button:hover {
     left: 52px;
     top: 155px;
     margin: 10px 24px 10px 0;
-    background-image: url(assets/dots.svg);
+    background-image: var(--js-background-image);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -116,7 +120,7 @@ button:hover {
     border-radius: 6px;
 }
 
-#pass-el {
+#pass-el-1, #pass-el-2, #pass-el-3, #pass-el-4 {
     display: flex;
     justify-content: center;
     align-items: center;
