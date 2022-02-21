@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device">
     <link rel="stylesheet" href="index.css">
     <title>Invoice Creator</title>
 </head>
 <body>
     <main>
-        
+        <div class="invoice">
+            <h1>Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </div>
+        <div class="invoice-box">
+            <div class="btn-section">
+                <button id="wash-btn">Wash Car: $10</button>
+                <button id="mow-btn">Mow Lawn: $20</button>
+                <button id="pull-btn">Pull Weeds $30</button>
+            </div>
+            <div id="textbox"></div>
+            <hr>
+            <span id="notes">Notes</span>
+            <p id="total-amount"></p>
+            <button id="send-btn">Send invoice</button>
+        </div>
     </main>
     <script src="index.js"></script>
 </body>
